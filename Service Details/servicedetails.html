@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Ascent-Childcare & Kids School</title>
+    <link rel="icon" href="../Images/logo.png" />
+    <link rel="stylesheet" href="servicedetails.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <!-- Topbar -->
+
+    <div class="topbar">
+      <div class="contactinfo">
+        <span><i class="fa-solid fa-phone"></i> (629) 555-0129</span>
+        <span><i class="fa-solid fa-envelope"></i> info@example.com</span>
+        <span
+          ><i class="fa-solid fa-location-dot"></i> 6391 Elgin St. Celina,
+          1029</span
+        >
+      </div>
+      <div class="media">
+        <a href="#" class="links"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" class="links"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" class="links"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" class="links"><i class="fa-brands fa-pinterest-p"></i></a>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <div class="navbar d-flex justify-content-around m-1">
+      <div class="logo"><img src="../Images/logo.png" /><span>Ascent</span></div>
+      <div class="mainnav d-flex mt-3">
+        <ul class="navmenu ps-3">
+          <li class="nav dropdown">
+            <a href="#">Home</a>
+            <ul class="dropdown-menu">
+              <li><a href="../index.html">Home-1</a></li>
+            </ul>
+          </li>
+          <li class="nav"><a href="#">About Us</a></li>
+          <li class="nav dropdown">
+            <a href="#">Services</a>
+            <ul class="dropdown-menu">
+              <li><a href="/Service/service.html">Services</a></li>
+              <li><a href="/Service Details/servicedetails.html">Service Details</a></li>
+            </ul>
+          </li>
+          <li class="nav dropdown">
+            <a href="#">Blog</a>
+            <ul class="dropdown-menu">
+              <li><a href="/Blog/blog.html">Blog</a></li>
+              <li><a href="/BlogDetails/blogdetails.html">Blog Details</a></li>
+            </ul>
+          </li>
+           <li class="nav dropdown">
+            <a href="#">Page</a>
+            <ul class="dropdown-menu">
+              <li><a href="/About/about.html">About</a></li>
+              <li><a href="/Service/service.html">Services</a></li>
+              <li><a href="/Service Details/servicedetails.html">Service Details</a></li>
+              <li><a href="/Portfolio/portfolio.html">Portfolio</a></li>
+              <li><a href="/Contactus/contact.html">Contact</a></li>
+            </ul>
+          </li>
+          <li class="nav"><a href="/Contactus/contact.html"> Contact Us</a></li>
+        </ul>
+        <div class="buttons">
+          <button class="search me-3 mt-3 ms-3">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <button class="buttonani ps-4 pe-4 pt-3 pb-3 rounded-3 me-4">
+            Get A Quote <i class="fa-solid fa-arrow-right"></i
+            ><span class="toright"></span>
+          </button>
+        </div>
+        <nav class="navbar">
+          <div class="menu">
+            <button
+              class="navbar-toggler border-0"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+            >
+              <span><img src="../Images/menu.png" height="40px" /></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasNavbar"
+            >
+              <div class="offcanvas-header">
+                <!-- <h5 class="offcanvas-title">Ascent</h5> -->
+                <div class="logo">
+                  <img src="../Images/logo.png" /><span>Ascent</span>
+                </div>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item border-bottom">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item border-bottom">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item border-bottom">
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item border-bottom">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item border-bottom">
+                    <a class="nav-link" href="#">page</a>
+                  </li>
+                  <li class="nav-item border-bottom">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                  <div class="sidebar">
+                    <div class="contactsinfo">
+                      <div class="infos h4 mt-3">Contact Info</div>
+                      <span>(629) 555-0129</span>
+                      <span> info@example.com</span>
+                      <span> 6391 Elgin St. Celina, 1029</span>
+                      <button class="p-3 rounded-3">Get A Quote</button>
+                    </div>
+                    <div class="medias mt-3 h5">
+                      <a
+                        href="#"
+                        class="links text-dark ps-3 pe-3 me-3 rounded-1"
+                        ><i class="fa-brands fa-facebook-f"></i
+                      ></a>
+                      <a
+                        href="#"
+                        class="links text-dark ps-3 pe-3 me-3 rounded-1"
+                        ><i class="fa-brands fa-x-twitter"></i
+                      ></a>
+                      <a
+                        href="#"
+                        class="links text-dark ps-3 pe-3 me-3 rounded-1"
+                        ><i class="fa-brands fa-linkedin"></i
+                      ></a>
+                      <a
+                        href="#"
+                        class="links text-dark ps-3 pe-3 me-3 rounded-1"
+                        ><i class="fa-brands fa-pinterest-p"></i
+                      ></a>
+                    </div>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- First Page -->
+    <div class="firstpge">
+      <div class="container">
+        <div class="abouts pt-5 pb-5">
+          <div class="aboutus">
+            <h1>Service Details</h1>
+            <h3>Home &nbsp;&nbsp;&nbsp;<span>Service Details</span></h3>
+          </div>
+          <div class="breedimg">
+            <img class="catbread" src="../Images/bread-cat.png" alt="" />
+            <img class="thumb" src="../Images/bread-thumb.png" />
+            <img class="childbread" src="../Images/bread-child.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 2nd page -->
+    <div class="container mt-5">
+    <div class="sd1">
+      <img src="../Images/service-details-1.png" alt="" />
+      <h2 class="heads4 mt-4">Discover the power of education Knowledge is the key</h2>
+      <p class="paras mt-4">
+        There are many variations passages a This category focariatio of deign
+        Redefining the an the concept of living This category focuses on the
+        design and construction of bu a arrangement furniture and decorative
+        elements within them focariatio of deign There are many variations
+        passages a This category focariatio of deign Redefining the an the
+        concept of living This category focuses on the design and construction
+        of bu a arrangement furniture
+      </p>
+      </div>
+      <div class="parass mt-4">
+      <div class="p1">
+         <p>Education is the key to success. It empowers individuals with knowledge</p>
+         <p>Education opens doors to opportunities, fosters critical thinking, and promote</p>
+        </div>
+        <div class="p2">
+           <p>Education is the key to success. It empowers individuals with knowledge</p>
+           <p>Education opens doors to opportunities, fosters critical thinking, and promote</p>
+        </div>
+        </div>
+        <div class="paraimg mt-4">
+            <img src="../Images/service-details-2.png" alt="">
+            <img src="../Images/service-details-3.png" alt="">
+            <img src="../Images/service-details-4.png" alt="">
+        </div>
+        <div class="serviceall mt-4">
+             <h3>Service all details</h3>
+             <p>There are many variations passages a This category focariatio of deign Redefining the an the concept of living This category focuses on the design and construction of bu a arrangement furniture and decorative elements within them focariatio of deign</p>
+           <div class="groupdetails">
+            <div>
+                <p>It plays a vital role in shaping the future generation and promoting</p>
+                 <p>Education encompasses formal learning in schools, colleges, and universities</p>
+                 <p>Education opens doors to opportunities, fosters critical thinking, and promote</p>
+                 <p>Man encompasses formal learning in schools, colleges, and universities</p>            
+            </div>
+            <div>
+                <img src="../Images/service-details-5.png" alt="">
+            </div>
+           </div>
+     </div>
+    </div>
+    <!-- 3rdpage -->
+         <div class="staypge mt-4 p-4"> 
+        <div class="container">
+          <div class="staytuned">
+          <div class="staywith col-6 ">
+            <h5>Stay With Us</h5>
+            <h3>The path to success starts with education</h3>
+            <p class="text-muted">Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies dictum facilisis sem. Imperdiet massa turpis sit proin metus volutpat.</p>
+            <button class="readmores ps-4 pe-4 pt-3 pb-3 mt-3 rounded-5">Read More</button>
+          </div>
+          <div class="stay1">
+            <img src="../Images/stay-thumb.png" alt="">
+          </div>
+        </div>
+     </div>
+     </div>
+    
+     <!-- 4thpage -->
+      <div class="footers w-100 ">
+      <div class="container">
+      <div class="row d-flex justify-content-between pt-5">
+        <div class="col">
+          <div class="logo"><img src="../Images/logo.png" /><span>Ascent</span></div>
+          <p>
+            Yes, there are many notable ma corporate the a od businesses
+            Informati worldwide
+          </p>
+          <div class="pros d-flex mt-4">
+            <a href="#" class="pro1 me-3"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="#" class="pro2 me-3"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a href="#" class="pro3 me-3"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="#" class="pro4"
+              ><i class="fa-brands fa-pinterest-p"></i
+            ></a>
+          </div>
+        </div>
+        <div class="list3 col">
+          <h5>Pages</h5>
+          <li>About Us</li>
+          <li>Latest Service</li>
+          <li>Latest Blog And News</li>
+          <li>FAQ</li>
+          <li>Our Creative Team Members</li>
+        </div>
+        <div class="list4 col">
+          <h4>Contact</h4>
+          <li>1179 KFC Road, Lisbon, Portugal</li>
+          <li>Sakib23@gmail.com</li>
+          <li>012547892354</li>
+        </div>
+        <div class="newsletter col">
+          <h4>Our Newsletter</h4>
+          <p>Subscribe our newsletter to get our latest update</p>
+          <input  type="text" placeholder="Enter Your Email">
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer d-flex justify-content-between mt-5">
+      <div class="col ms-4">
+        <p>© Yoursitename 2024 | All Rights Reserved</p>
+      </div>
+      <div class="list5 d-flex me-4">
+        <li>Trams & Condition</li>
+        <li>Privacy Policy</li>
+        <li>Contact Us</li>
+      </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

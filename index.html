@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ascent-Childcare & Kids School</title>
+    <link rel="icon" href="./Images/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <!-- Topbar -->
+
+    <div class="topbar">
+      <div class="contactinfo">
+        <span><i class="fa-solid fa-phone"></i> (629) 555-0129</span>
+        <span><i class="fa-solid fa-envelope"></i> info@example.com</span>
+        <span
+          ><i class="fa-solid fa-location-dot"></i> 6391 Elgin St. Celina,
+          1029</span
+        >
+      </div>
+      <div class="media">
+        <a href="#" class="links"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" class="links"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" class="links"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" class="links"><i class="fa-brands fa-pinterest-p"></i></a>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <div class="navbar d-flex justify-content-around m-1">
+      <div class="logo"><img src="./Images/logo.png" /><span>Ascent</span></div>
+      <div class="mainnav d-flex mt-3">
+        <ul class="navmenu ps-3">
+          <li class="nav dropdown">
+            <a href="#">Home</a>
+            <ul class="dropdown-menu">
+              <li><a href="../index.html">Home-1</a></li>
+            </ul>
+          </li>
+          <li class="nav"><a href="/About/about.html">About Us</a></li>
+          <li class="nav dropdown">
+            <a href="#">Services</a>
+            <ul class="dropdown-menu">
+              <li class="nav"><a href="/Service/service.html">Services</a></li>
+                <li class="nav"><a href="/Service Details/servicedetails.html">Service Details</a></li>
+            </ul>
+          </li>
+          <li class="nav dropdown"><a href="#">Blog</a>
+               <ul class="dropdown-menu">
+              <li><a href="/Blog/blog.html">Blog</a></li>
+                <li><a href="/BlogDetails/blogdetails.html">Blog Details</a></li>
+            </ul>
+          </li>
+          <li class="nav dropdown"><a href="#">Page</a>
+            <ul class="dropdown-menu">
+              <li><a href="/About/about.html">About</a></li>
+                <li><a href="/Service/service.html">Services</a></li>
+                  <li><a href="/Service Details/servicedetails.html">Service Details</a></li>
+                    <li><a href="/Portfolio/portfolio.html">Portfolio</a></li>
+                      <li><a href="/Contactus/contact.html">Contact</a></li>
+            </ul>
+          </li>
+          <li class="nav"><a href="/Contactus/contact.html"> Contact Us</a></li>
+        </ul>
+        <div class="buttons">
+          <button class="search me-3 mt-3 ms-3">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <button class="buttonani ps-4 pe-4 pt-3 pb-3 rounded-3 me-4">
+            Get A Quote <i class="fa-solid fa-arrow-right"></i><span class="toright"></span>
+          </button>
+        </div>
+        <nav class="navbar">
+          <div class="menu">
+            <button
+              class="navbar-toggler border-0"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+            >
+              <span><img src="./Images/menu.png" height="40px" /></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasNavbar"
+            >
+              <div class="offcanvas-header">
+                <!-- <h5 class="offcanvas-title">Ascent</h5> -->
+                   <div class="logo"><img src="./Images/logo.png" /><span>Ascent</span></div>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item border-bottom">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item border-bottom">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item border-bottom">
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item border-bottom">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item border-bottom">
+                    <a class="nav-link" href="#">page</a>
+                  </li>
+                  <li class="nav-item border-bottom">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                  <div class="sidebar">
+                    <div class="contactsinfo">
+                      <div class="infos h4 mt-3">Contact Info</div>
+                      <span
+                        >(629) 555-0129</span
+                      >
+                      <span
+                        >
+                        info@example.com</span
+                      >
+                      <span
+                        > 6391 Elgin St.
+                        Celina, 1029</span
+                      >
+                      <button class="p-3 rounded-3">Get A Quote</button>
+                    </div>
+                    <div class="medias mt-3 h5 ">
+                      <a href="#" class="links text-dark ps-3 pe-3 me-3 rounded-1"
+                        ><i class="fa-brands fa-facebook-f"></i
+                      ></a>
+                      <a href="#" class="links text-dark ps-3 pe-3 me-3 rounded-1"
+                        ><i class="fa-brands fa-x-twitter"></i
+                      ></a>
+                      <a href="#" class="links text-dark ps-3 pe-3 me-3 rounded-1"
+                        ><i class="fa-brands fa-linkedin"></i
+                      ></a>
+                      <a href="#" class="links text-dark ps-3 pe-3 me-3 rounded-1"
+                        ><i class="fa-brands fa-pinterest-p"></i
+                      ></a>
+                    </div>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- First Page  -->
+    <div class="firstpage">
+      <div class="container">
+        <div class="content1">
+          <div class="backimg">
+            <div class="imgback">
+              <img class="img1" src="./Images/boy_img_1.png" height="370px" />
+              <div class="imgbor ms-5"></div>
+            </div>
+          </div>
+
+          <div class="content ms-5">
+            <h1>
+              Exploring Minds <b>Elementary</b>
+              <b class="text-danger">School</b>
+            </h1>
+            <p>
+              Starting a corporate business typically involves several steps,
+              such as develo a business
+            </p>
+            <button class="learnmore mt-3 ps-4 pe-4 rounded-2">Learn More</button>
+          </div>
+             <div class="diamondimg">
+          <img class="shap1" src="./Images/shap1.png" height="50px" />
+          <img class="shap2" src="./Images/shap2.png" height="65px" />
+          <img class="shap3" src="./Images/shap3.png" height="30px" />
+        </div>
+          <!-- <div class="shape">
+            <img src="shap1.png" />
+            <img src="shap2.png" />
+            <img src="shap3.png" />
+          </div> -->
+        </div>
+        <div class="content2 gap-5">
+          <div class="img2">
+            <img src="./Images/paint.png" height="250px" />
+          </div>
+          <div class="backimg1">
+            <div class="imgback1">
+              <img class="imgs ms-5" src="./Images/boy_img_2.png" height="370px" />
+              <div class="imgbor1 ms-5"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="move">
+        <img class="img4" src="./Images/img2.png" />
+        <img class="img5" src="./Images/img3.png" />
+        <img class="img6" src="./Images/img4.png" />
+      </div>
+    </div>
+
+    <!-- Second-Page -->
+    <div class="container">
+      <div class="boxs row align-items-center mt-5">
+        <!-- left-box -->
+        <div class="col-xl-6 col-md-12 col-sm-12">
+          <h5 class="subtitle">Number Talks</h5>
+          <h3 class="content-head">Invest in education invest</h3>
+          <h3 class="subhead">in the future</h3>
+          <p class="para1 mt-4 text-muted">
+            Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies
+            dictum facilisis sem. Imperdiet massa turpis sit proin metus
+            volutpat loren ipsum Lorem ipsum dolor sit amet consectetur. Amet
+            lectus mi ultricies dictum
+          </p>
+          <button class="getbutton   mt-4 border ps-3 pe-3 pt-2 pb-2">Get a quote</button>
+        </div>
+        <!-- right-box -->
+        <div class="col-xl-6 col-md-12 col-sm-12">
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="iconbox">
+                <div class="iconimg iconorange">
+                  <i class="fa-solid fa-school"></i>
+                </div>
+                <div class="icontext">
+                  <h1>20K</h1>
+                  <p>Running Students</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="iconbox">
+                <div class="iconimg iconpink">
+                  <i class="fa-solid fa-book-open"></i>
+                </div>
+                <div class="icontext">
+                  <h1>13K</h1>
+                  <p>Completed</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="iconbox">
+                <div class="iconimg icongreen">
+                  <i class="fa-solid fa-school-flag"></i>
+                </div>
+                <div class="icontext">
+                  <h1>3K</h1>
+                  <p>Award Winning</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="iconbox">
+                <div class="iconimg iconblue">
+                  <i class="fa-solid fa-book-open"></i>
+                </div>
+                <div class="icontext">
+                  <h1>13K</h1>
+                  <p>Guardian<br />Satisfaction</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Third-page -->
+    <div class="container">
+      <div class="row mt-5">
+        <div class="increimg col-xl-6 d-flex align-items-end">
+          <div>
+            <img src="./Images/about-1.png" />
+          </div>
+          <div class="">
+            <div class="incre rounded-4 ms-4 mt-5 p-2">
+              <img class="ps-5" src="./Images/icreement.png" />
+              <h1 class="h5 ps-4">Academy</h1>
+              <p class="text-muted">Learning Ladder School</p>
+            </div>
+            <div class="learners ms-4 mt-3 p-3">
+              <h1>10+</h1>
+              <p class="text-muted">Learning Ladder School</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 p-5">
+          <h5 class="abt mt-4 text-primary">About Us</h5>
+          <h1 class="para2">
+            Unlocking Potential, One Child at a just Time in school
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Amet lectus mi ultricies
+            dictum facilisis sem. Imperdiet massa turpis sit proin metus
+            volutpat loren ipsum Lorem ipsum dolor sit amet consectetur. Amet
+            lectus mi ultricies dictum
+          </p>
+          <button class="getbutton  btn-custom mt-4 border">Get a quote</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Forth-page -->
+    <div class="forth mt-5 p-5 ">
+      <h6>Educational Programs</h6>
+      <h3>Strong Foundation for Success For <span>Nurturing Curiosityl</span> </h3>
+      <div class="pencil">
+        <img src="./Images/pencil-rocket.png" height="" />
+      </div>
+    </div>
+    <div class="container">
+      <div class="row g-4 mt-5 ms-5 align-items-center">
+        <!-- box1 -->
+        <div class="col-lg-5 col-md-6 me-4">
+          <div class="terms">
+            <div class="schoolicon firsticon">
+              <i class="fa-solid fa-car-side"></i>
+            </div>
+            <h4>Online Class</h4>
+            <p class="text-muted mt-3 mb-3">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit platea the
+              ,osr of a proin mollis pretium facilisi in]
+            </p>
+            <p class="readmore">
+              Read More<i class="fa-solid fa-arrow-right"></i>
+            </p>
+          </div>
+        </div>
+        <!-- box2 -->
+        <div class="col-lg-5 col-md-6 me-4">
+          <div class="terms">
+            <div class="schoolicon firsticon p-0 ">
+              <i class="fa-solid fa-chalkboard-user"></i>
+            </div>
+            <h4>Formal Tuition</h4>
+            <p class="text-muted mt-3 mb-3">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit platea the
+              ,osr of a proin mollis pretium facilisi in
+            </p>
+            <p class="readmore">
+              Read More<i class="fa-solid fa-arrow-right"></i>
+            </p>
+          </div>
+        </div>
+        <!-- box3 -->
+        <div class="col-lg-5 col-md-6 me-4">
+          <div class="terms">
+            <div class="schoolicon firsticon">
+              <i class="fa-solid fa-prescription-bottle"></i>
+            </div>
+            <h4>Preschool</h4>
+            <p class="text-muted mt-3 mb-3 ">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit platea the
+              ,osr of a proin mollis pretium facilisi in
+            </p>
+            <p class="readmore">
+              Read More<i class="fa-solid fa-arrow-right"></i>
+            </p>
+          </div>
+        </div>
+        <!-- box4 -->
+        <div class="col-lg-5 col-md-6 me-4">
+          <div class="terms">
+            <div class="schoolicon firsticon">
+              <i class="fa-solid fa-book-open"></i>
+            </div>
+            <h4>Special Tuition</h4>
+            <p class="text-muted mt-3 mb-3">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit platea the
+              ,osr of a proin mollis pretium facilisi in
+            </p>
+            <p class="readmore">
+              Read More<i class="fa-solid fa-arrow-right"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fifth-page -->
+    <div class="fifth mt-5">
+      <h6>Latest Portfolio</h6>
+      <h3>Exploring Minds Elementary School Education the only school</h3>
+    </div>
+    <div class="fifthnav mt-4">
+      <li class="active me-5 border pt-2 pb-2 ps-4 pe-4 rounded-3">
+        Education
+      </li>
+      <li class="me-5 border pt-2 pb-2 ps-4 pe-4 rounded-3">School</li>
+      <li class="me-5 border pt-2 pb-2 ps-4 pe-4 rounded-3">Learn</li>
+      <li class="me-5 border pt-2 pb-2 ps-4 pe-4 rounded-3">Child</li>
+      <li class="me-5 border pt-2 pb-2 ps-4 pe-4 rounded-3">Coaching</li>
+    </div>
+    <div class="container">
+       <div class="images "> 
+      <div class="gridimg ">
+        <div class="item">
+          <img src="./Images/s1.png" alt="" />
+          <div class="thoughts">
+            <h5>Exploring Minds Elementary Best School</h5>
+            <p>Dreamland Elementary</p>
+          </div>
+        </div>
+        <div class="item2">
+          <img src="./Images/s2.png" alt="" />
+          <div class="thoughts1">
+            <h5>Exploring Minds Elementary Best School</h5>
+            <p>Dreamland Elementary</p>
+          </div>
+        </div>
+        <div class="item3">
+          <img src="./Images/s3.png" alt="" />
+          <div class="thoughts2">
+            <h5>Exploring Minds Elementary Best School</h5>
+            <p>Dreamland Elementary</p>
+          </div>
+        </div>
+        <div class="item4">
+          <img src="./Images/s4.png" alt="" />
+          <div class="thoughts3">
+            <h5>Exploring Minds Elementary Best School</h5>
+            <p>Dreamland Elementary</p>
+          </div>
+        </div>
+        <div class="item5">
+          <img src="./Images/s5.png" alt="" />
+          <div class="thoughts4">
+            <h5>Exploring Minds Elementary Best School</h5>
+            <p>Dreamland Elementary</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Sixth-page -->
+    <div class="sixth">
+      <div class="container">
+        <div class="row mt-5 d-flex">
+          <div class="sixthpara col-lg-6 col-md-6">
+            <h5 class="h6 fw-bold">Latest Service</h5>
+            <h3 class="h3 fw-bold">Building a Str Foundation for Success</h3>
+          </div>
+          <div class="col-lg-5 col-md-6">
+            <p class="para3">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit platea
+              pharetra, nostra mattis hendrerit proin mollis pretium facilisi
+              in, ligula volutpat
+            </p>
+          </div>
+        </div>
+        <div class="content3 mt-5">
+          <div class="col-lg-2 col-md-4">
+            <button
+              class="readmore btn btn-custom mt-4 border border-primary ps-4 pt-3 pe-4 pb-3"
+            >
+              Read More <i class="fa-solid fa-right-long"></i>
+            </button>
+          </div>
+          <div class="maintoy">
+          <div class="content4">
+            <div class="toy1 col-lg-4 col-md-4 col-sm-6 c1 text-center">
+              <div class="toyicon">
+              <i class="fa-solid fa-chalkboard"></i>
+              </div>
+              <h5>Star Preschool design</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <button class="btn btn-custom mt-2 ps-5 pt-3 pe-5 pb-3">
+                Read More <i class="fa-solid fa-right-long"></i>
+              </button>
+            </div>
+            <div class="toy2 col-lg-4 col-md-4 c2 text-center">
+              <div class="toyicon">
+              <i class="fa-solid fa-cart-flatbed-suitcase"></i>
+              </div>
+              <h5>Learning school heres us</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <button class="btn btn-custom mt-2 ps-5 pt-3 pe-5 pb-3">
+                Read More <i class="fa-solid fa-right-long"></i>
+              </button>
+            </div>
+              <div class="toy3 col-lg-4 col-md-4 c2 text-center">
+              <div class="toyicon">
+              <i class="fa-solid fa-cart-flatbed-suitcase"></i>
+              </div>
+              <h5>Learning school heres us</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <button class="btn btn-custom mt-2 ps-5 pt-3 pe-5 pb-3">
+                Read More <i class="fa-solid fa-right-long"></i>
+              </button>
+            </div>
+          </div>
+            </div>
+          <div class="manimg">
+            <img src="./Images/man.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- seventh-Page-->
+
+    <div class="container">
+      <div class="row mt-5">
+        <div class="banner col-xl-6">
+          <img src="./Images/banner-1.png" />
+        </div>
+        <div class="childedu col-xl-6 p-5">
+          <h5>Some Faq</h5>
+          <h3>Empowering Children Through Education Playful Mind</h3>
+          <div class="border mt-5 p-3">
+            <div class="ques1 d-flex justify-content-between pt-3 ps-2">
+              <h6>Why do we have to go to school?</h6>
+              <div class="minusicon"><i class="fa-solid fa-minus"></i></div>
+            </div>
+            <p class="ps-2">
+              It is a long established fact that a reader will be distracted by
+              the read content of a page when looking at its layout. Many
+              desktop publish packages and web page editors now use Loremdefault
+              model
+            </p>
+          </div>
+          <div class="ques2 d-flex border justify-content-between p-3 mt-4">
+            <h6>Why do we have to go to school?</h6>
+            <div class="plusicon"><i class="fa-solid fa-plus"></i></div>
+          </div>
+          <div class="ques2 d-flex border justify-content-between p-3 mt-4">
+            <h6>Why do we have to go to school?</h6>
+            <div class="plusicon"><i class="fa-solid fa-plus"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Eighth-page -->
+    <div class="professinal mt-5">
+      <h5>Meet Our Professional</h5>
+      <h3>Joyful Journeys Childcare and the Of a Education</h3>
+    </div>
+    <div class="container">
+      <div class="mainedu mt-5">
+        <div class="edupro p-5">
+          <img src="./Images/professonal1.png" />
+          <h4 class="mt-4">Jane Cooper</h4>
+          <h6 class="text-muted">Marketing Coordinator</h6>
+          <div class="pros d-flex mt-4">
+            <a href="#" class="pro1 me-4"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="#" class="pro2 me-4"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a href="#" class="pro3 me-3"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="#" class="pro4"
+              ><i class="fa-brands fa-pinterest-p"></i
+            ></a>
+          </div>
+        </div>
+        <div class="edupro p-5">
+          <img src="./Images/professonal2.png" />
+          <h4 class="mt-4">Jane Cooper</h4>
+          <h6 class="text-muted">Marketing Coordinator</h6>
+          <div class="pros d-flex mt-4">
+            <a href="#" class="pro1 me-4"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="#" class="pro2 me-4"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a href="#" class="pro3 me-4"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="#" class="pro4"
+              ><i class="fa-brands fa-pinterest-p"></i
+            ></a>
+          </div>
+        </div>
+        <div class="edupro p-5">
+          <img src="./Images/professonal3.png" />
+          <h4 class="mt-4">Jane Cooper</h4>
+          <h6 class="text-muted">Marketing Coordinator</h6>
+          <div class="pros d-flex mt-4">
+            <a href="#" class="pro1 me-3"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="#" class="pro2 me-3"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a href="#" class="pro3 me-3"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="#" class="pro4"
+              ><i class="fa-brands fa-pinterest-p"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ninth-page -->
+    <div class="childrenedu">
+      <div class="container">
+        <div class="row mt-5 p-5 d-flex justify-content-between">
+          <div class="stud col">
+            <h5>Student knowledge</h5>
+            <h3>Knowledge for All learn design Excellence for Everyone</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipiscing elit platea the
+              osr of a proin mollis pretium facilisi in, ligula volutpat
+            </p>
+            <button class="btn btn-danger rounded-5  w-25">
+              Learn More
+            </button>
+          </div>
+          <div class="boxstud col">
+            <div class="boxstud1 d-flex">
+              <div class="firstyear align-items-end justify-content-end">
+                <div class="firststud border me-3">1-2 Years</div>
+                <div class="secondstud border me-3">9-11 Years</div>
+              </div>
+              <div class="secondyear">
+                <div class="thirdstud border">3-5 Years</div>
+                <div class="forthstud border">6-8 Years</div>
+                <div class="fifthstud border">16-18 Years</div>
+              </div>
+              <div class="thirdyear">
+                <div class="sixthstud">12-15 Years</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="animals">
+        <img src="./Images/knowledge-animal.png" alt="" height="150px" />
+      </div>
+      <div class="tree">
+        <img src="./Images/knowledge-lshpe.png" alt="" height="450px" />
+      </div>
+    </div>
+
+    <!-- 10th page -->
+   
+
+     <div class="container mt-5">
+        <div class="wonderstud">
+      <div class="wonderchild row">
+        <div class="testi col-lg-4 col-md-6 col-sm-12">
+          <h5>Clients Testimonial</h5>
+          <h3>Unlocking the Power of Wonderworks Child</h3>
+        </div>
+        <div class="testi1 col-lg-4 col-md-6">
+          <p>
+            Use receiving accounts a number a currencies and get paid like a
+            local Use receivin accounts a number paid the most beautiful think
+          </p>
+        </div>
+      </div>
+      <div class="wonderuser row mt-5">
+      <div class="wonderimg col-lg-6">
+          <img class="imgwonder" src="./Images/s2.png" alt="" height="450px">
+      </div>
+      <div class="userpro col-lg-6 ">
+        <div >
+        <img src="./Images/user-1.png" alt="" height="75px">
+        </div>
+        <div class="proname ms-3">
+        <h6>Shakib AI Hasan</h6>
+        <p>Marketing Manager</p>
+        <p class="wondercontent mt-4"> 
+            Their product exceeded his my routi expectations. The the quality
+              and attention to detail a the a most outstanding and it has become
+              an essential most a education the man who can do
+        </p>
+         </div>
+         <div class="quots">
+            <img src="./Images/quotation.png" alt="">
+         </div>
+        </div>
+      </div>
+    </div>
+     
+
+    <!-- 11th-page -->
+    <div class="pluspage">
+      <div class="blog mt-5 w-75 ms-5 pt-5">
+        <h5>Latest Blog And News</h5>
+        <h3>Wonderworks Child Development Center Discovery Kids Preschool</h3>
+      </div>
+      <div class="container">
+        <div class="row g-3 d-flex">
+          <div class="play col mt-5">
+            <div class="play1 col d-flex border rounded-4 p-3">
+              <img src="./Images/blog-1.png" />
+              <div class="mt-4 ms-4">
+                <span class="text-muted h6">October 19, 2023 By admin</span>
+                <h3 class="mt-3 h4">
+                  Empowering Children Through Education the a Igniting
+                </h3>
+                <p class="text-muted mt-3">Read More</p>
+              </div>
+            </div>
+            <div class="play2 col d-flex mt-3 border rounded-4 p-3">
+              <img src="./Images/blog-2.png" />
+              <div class="mt-4 ms-4">
+                <span class="text-muted h6">October 19, 2023 By admin</span>
+                <h3 class="mt-3 h4">
+                  Empowering Children Through Education the a Igniting
+                </h3>
+                <p class="text-muted mt-3">Read More</p>
+              </div>
+            </div>
+          </div>
+          <div class="play3 col mt-5 border rounded-4 p-3">
+            <img src="./Images/blog-3.png" alt="" />
+            <div class="mt-4 ms-4">
+              <span class="text-muted h6">October 19, 2023 By admin</span>
+              <h3 class="mt-3 h4">
+                Empowering Children Through Education the a Igniting
+              </h3>
+              <p class="text-muted mt-3">Read More</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 12thpage -->
+ 
+    <div class="outsideimg">
+ <div class="container">
+    <div class="containimg">
+    <div class="studimg1">
+    <div class="studimg">
+        <img class="studbook" src="./Images/student.png" alt="">
+    </div>
+    <div class="imgcontent ">
+        <div class="cont2">
+         <h5>Get Connected</h5>
+        <h2>Education That Sparks Imaginat Nurturing Curiosity Inspire</h2>
+        <div class="searimg rounded-3 bg-white mt-5">
+            <input class="border-0 " type="text" placeholder="Enter Your Email">
+            <button class="me-4 mt-3 mb-3 border-0 rounded-3">Search</button>
+        </div>
+        </div>
+    </div>
+    </div >
+    <img class="eggimg" src="./Images/egg-shap.png" alt="">
+     </div>
+ </div>
+ <img class="treeimg" src="./Images/bg-img.png" alt="" height="100px" width="100%">
+ </div>
+    <!-- 13th page -->
+    <div class="container">
+      <div class="row mt-5 d-flex justify-content-between">
+        <div class="col">
+          <div class="logo"><img src="./Images/logo.png" /><span>Ascent</span></div>
+          <p>
+            Yes, there are many notable ma corporate the a od businesses
+            Informati worldwide
+          </p>
+          <div class="pros d-flex mt-4">
+            <a href="#" class="pro1 me-3"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="#" class="pro2 me-3"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a href="#" class="pro3 me-3"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="#" class="pro4"
+              ><i class="fa-brands fa-pinterest-p"></i
+            ></a>
+          </div>
+        </div>
+        <div class="list3 col">
+          <h5>Pages</h5>
+          <li>About Us</li>
+          <li>Latest Service</li>
+          <li>Latest Blog And News</li>
+          <li>FAQ</li>
+          <li>Our Creative Team Members</li>
+        </div>
+        <div class="list4 col">
+          <h4>Contact</h4>
+          <li>1179 KFC Road, Lisbon, Portugal</li>
+          <li>Sakib23@gmail.com</li>
+          <li>012547892354</li>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer d-flex justify-content-between mt-5">
+      <div class="col ms-4">
+        <p>© Yoursitename 2024 | All Rights Reserved</p>
+      </div>
+      <div class="list5 d-flex me-4">
+        <li>Trams & Condition</li>
+        <li>Privacy Policy</li>
+        <li>Contact Us</li>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+
+
